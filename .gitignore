@@ -1,0 +1,92 @@
+# ==============================
+# Python / FastAPI Backend
+# ==============================
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.tox/
+.nox/
+
+# Type checking
+.mypy_cache/
+.pyright/
+
+# ==============================
+# FastAPI / Environment
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Node / React Frontend
+# ==============================
+
+node_modules/
+
+# React build output
+dist/
+build/
+
+# Vite
+.vite/
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# OS Files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Temporary Files
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+Problem Statements.pdf
+aether.pdf
+test_debate.py
+AETHER_API_Reference.docx
+jwt_generate.py
